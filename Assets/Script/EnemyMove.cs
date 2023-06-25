@@ -31,7 +31,12 @@ public class EnemyMove : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        dataCs.score++;
-        Destroy(this.gameObject);
+        if (other.gameObject.CompareTag("bullet"))
+
+
+        {
+            dataCs.score++;
+            Destroy(this.gameObject);
+        }
     }
 }
