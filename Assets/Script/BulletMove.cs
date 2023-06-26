@@ -28,4 +28,5 @@ public class BulletMove : MonoBehaviour
         Destroy(bullet, lifeTime);
     }
 }
-}
+  }
+

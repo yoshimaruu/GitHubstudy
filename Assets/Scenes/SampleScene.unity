@@ -153,9 +153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 3396722710549263751, guid: b2b07b81139528841a8f4387a1f3bff3, type: 3}
-  makeTime: 1
-  enemyZ: 3
-  enemyX: 10
+  makeTime: 0.7
+  enemyZ: 6
+  enemyX: 12
 --- !u!4 &419734366
 Transform:
   m_ObjectHideFlags: 0
@@ -385,7 +385,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -256, y: 150}
+  m_AnchoredPosition: {x: -350, y: 165}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &971524620
