@@ -39,14 +39,7 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Enemy"))
-        {
-            Destroy(this.gameObject);
-            Debug.Log("Enemy");
-        }
-    }
+    
 
     private void OnDestroy()
     {
