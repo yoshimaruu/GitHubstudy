@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class GoGame : MonoBehaviour
+public class GameStart : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,10 +14,6 @@ public class GoGame : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             SceneManager.LoadScene("SampleScene");
-        }
-        if (Input.GetKey(KeyCode.Return))
-        {
-            SceneManager.LoadScene("Strat");
         }
     }
 }
