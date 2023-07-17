@@ -18,5 +18,9 @@ public class Retry : MonoBehaviour
         {
             SceneManager.LoadScene("SampleScene");
         }
+        if (Input.GetKey(KeyCode.B))
+        {
+            SceneManager.LoadScene("Strat");
+        }
     }
 }

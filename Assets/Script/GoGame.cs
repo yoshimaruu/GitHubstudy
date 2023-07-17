@@ -15,9 +15,5 @@ public class GoGame : MonoBehaviour
         {
             SceneManager.LoadScene("SampleScene");
         }
-        if (Input.GetKey(KeyCode.Return))
-        {
-            SceneManager.LoadScene("Strat");
-        }
     }
 }
